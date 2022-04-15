@@ -6,35 +6,48 @@ Tutorials
 .. grid:: 1 2 auto auto
    :gutter: 3
 
-   .. grid-item-card:: Atmosphere
-      :link: tutorial-onedim
+   .. grid-item-card:: :fas:`user-graduate` Getting started
+      :link: tutorials-getting_started
       :link-type: ref
 
-      Learn how to use Eradiate's one-dimensional experiment.
+      Learn the basics. Start here if you are new to Eradiate.
+      
+   .. grid-item-card:: :fas:`user-secret` Advanced topics
+      :link: tutorials-advanced_topics
+      :link-type: ref
+      
+      A collection of more advanced tutorials requiring familiarity with 
+      Eradiate.
 
-   .. grid-item-card:: Canopy
-      :link: tutorial-canopy
+   .. grid-item-card:: :fas:`user-cog` How-to guides
+      :link: tutorials-howto
       :link-type: ref
 
-      Discover Eradiate's explicit canopy simulation features.
+      Practical guides on specific topics not directly related with radiative
+      transfer simulation.
+
+Learning pathways
+-----------------
+
+.. grid:: 1 2 auto auto
+   :gutter: 3
    
-   .. grid-item-card:: Homogeneous atmosphere
-      :link: tutorial-homogeneous_atmosphere
-      :link-type: ref
-
-      Learn how to create a homogeneous atmosphere scene element.
-   
-   .. grid-item-card:: Molecular atmosphere
-      :link: tutorial-molecular_atmosphere
-      :link-type: ref
-
-      Learn how to create a molecular atmosphere scene element.
+   .. grid-item-card:: :fas:`cloud-sun` 1D simulation
+      
+      * :doc:`getting_started/eradiate_quickstart`
+      * :doc:`getting_started/molecular_atmosphere`
+      * :doc:`getting_started/particle_layer`
+      
+   .. grid-item-card:: :fas:`tree` 3D simulation
+      
+      * :doc:`getting_started/eradiate_quickstart`
+      * :doc:`getting_started/3d_basics`
+      * :doc:`advanced/abstract_canopies`
 
 .. toctree::
    :hidden:
    :maxdepth: 1
 
-   01-onedim.ipynb
-   02-canopy.ipynb
-   03-homogeneous_atmosphere.ipynb
-   04-molecular_atmosphere.ipynb
+   getting_started/index.md
+   howto/index.md
+   advanced/index.md
