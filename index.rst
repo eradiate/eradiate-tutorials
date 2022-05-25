@@ -6,11 +6,11 @@ Tutorials
 .. grid:: 1 2 auto auto
    :gutter: 3
 
-   .. grid-item-card:: Atmosphere
-      :link: tutorial-onedim
+   .. grid-item-card:: Introduction
+      :link: tutorial-introduction
       :link-type: ref
 
-      Learn how to use Eradiate's one-dimensional experiment.
+      Learn how to use Eradiate's experiments.
 
    .. grid-item-card:: Canopy
       :link: tutorial-canopy
@@ -34,7 +34,7 @@ Tutorials
    :hidden:
    :maxdepth: 1
 
-   01-onedim.ipynb
+   01-introduction.ipynb
    02-canopy.ipynb
    03-homogeneous_atmosphere.ipynb
    04-molecular_atmosphere.ipynb
