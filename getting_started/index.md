@@ -5,9 +5,8 @@ Getting started
 
 A collection of introductory lessons to learn the basics of Eradiate.
 
-```{toctree}
+{toctree}
 ---
 hidden:
 ---
-onedim.ipynb
-```
+01_introduction.ipynb
