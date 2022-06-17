@@ -14,4 +14,5 @@ maxdepth: 1
 onedim.ipynb
 canopy.ipynb
 homogeneous_atmosphere.ipynb
+molecular_atmosphere.ipynb
 ```
