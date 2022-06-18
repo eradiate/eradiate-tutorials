@@ -7,7 +7,7 @@ A collection of introductory lessons to learn the basics of Eradiate.
 
 ```{toctree}
 ---
-hidden:
+maxdepth: 1
 ---
-01-introduction.ipynb
+eradiate_quickstart.ipynb
 ```

@@ -4,5 +4,8 @@ How-to guides
 =============
 
 ```{toctree}
-better_notebook.ipynb
+---
+maxdepth: 1
+---
+better_notebook_experience.ipynb
 ```
