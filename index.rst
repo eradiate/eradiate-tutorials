@@ -24,4 +24,5 @@ Tutorials
    :maxdepth: 1
 
    getting_started/index.md
+   howto/index.md
    legacy/index.md
