@@ -10,4 +10,5 @@ A collection of introductory lessons to learn the basics of Eradiate.
 maxdepth: 1
 ---
 eradiate_quickstart.ipynb
+scene_geometry.ipynb
 ```
