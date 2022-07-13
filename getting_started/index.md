@@ -11,4 +11,5 @@ maxdepth: 1
 ---
 eradiate_quickstart.ipynb
 problem_geometry.ipynb
+molecular_atmosphere.ipynb
 ```
