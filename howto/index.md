@@ -8,4 +8,5 @@ How-to guides
 maxdepth: 1
 ---
 better_notebook_experience.ipynb
+advanced_visualisation.ipynb
 ```
