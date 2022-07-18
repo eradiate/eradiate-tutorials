@@ -10,6 +10,7 @@ A collection of introductory lessons to learn the basics of Eradiate.
 maxdepth: 1
 ---
 eradiate_quickstart.ipynb
+3d_basics.ipynb
 problem_geometry.ipynb
 molecular_atmosphere.ipynb
 ```
