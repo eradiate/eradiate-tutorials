@@ -5,13 +5,10 @@ Getting started
 
 A collection of introductory lessons to learn the basics of Eradiate.
 
-```{toctree}
----
-maxdepth: 1
----
-eradiate_quickstart.ipynb
-molecular_atmosphere.ipynb
-particle_layer.ipynb
-3d_basics.ipynb
-problem_geometry.ipynb
+```{nbgallery}
+eradiate_quickstart
+molecular_atmosphere
+particle_layer
+3d_basics
+problem_geometry
 ```

@@ -49,5 +49,5 @@ Learning pathways
    :maxdepth: 1
 
    getting_started/index.md
-   howto/index.md
    advanced/index.md
+   howto/index.md
