@@ -227,7 +227,7 @@ Preconfigured RAMI-5 scenarios from the `DART Team <https://dart.omp.eu/>`_, are
 
     import eradiate
     from eradiate.experiments import CanopyExperiment
-    from eradiate.scenes.rami_scenarios import (
+    from eradiate.scenes.biosphere import (
         RAMIActualCanopies,
         RAMIHomogeneousAbstractCanopies,
         load_rami_scenario,
