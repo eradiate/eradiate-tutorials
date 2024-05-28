@@ -41,7 +41,7 @@ def main(ctx, root_dir: str, globs: str):
     ctx.obj = {}
 
     if root_dir is None:
-        root_dir = eradiate.config.source_dir / "tutorials"
+        root_dir = eradiate.config.SOURCE_DIR / "tutorials"
     else:
         root_dir = Path(root_dir)
     ctx.obj["root_dir"] = root_dir
