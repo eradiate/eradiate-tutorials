@@ -8,4 +8,5 @@ Advanced guides and tutorials requiring familiarity with Eradiate.
 ```{nbgallery}
 postprocessing_pipelines
 abstract_canopies
+digital_elevation_models
 ```
