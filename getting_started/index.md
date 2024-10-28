@@ -11,4 +11,5 @@ molecular_atmosphere
 particle_layer
 3d_basics
 problem_geometry
+polarization
 ```
