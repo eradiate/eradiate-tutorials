@@ -8,4 +8,5 @@ Advanced guides and tutorials requiring familiarity with Eradiate.
 ```{nbgallery}
 postprocessing_pipelines
 abstract_canopies
+custom_atmospheric_profile
 ```
