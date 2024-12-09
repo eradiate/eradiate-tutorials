@@ -1,0 +1,26 @@
+# This action lints our codebase
+name: Eradiate tutorial lint
+
+on:
+  pull_request
+
+jobs:
+  ruff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        # Important: If the version changes, do not forget to sync it with the
+        # pre-commit hook
+        run: |
+          python -m pip install --upgrade pip
+          pip install "ruff==0.8.2"
+      - name: Lint
+        run: ruff check --output-format=github
+      - name: Format
+        if: "!cancelled()"  # Run even if lint fails
+        run: ruff format --check

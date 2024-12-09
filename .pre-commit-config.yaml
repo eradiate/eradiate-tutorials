@@ -1,5 +1,11 @@
 repos:
-  - repo: https://github.com/kynan/nbstripout
-    rev: 0.5.0
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.8.2
+    # Important: If the version changes, do not forget to sync it with the
+    # linting CI workflow
     hooks:
-      - id: nbstripout
+      - id: ruff  # linter
+        types_or: [ python, pyi, jupyter ]
+        args: [ --fix, --exit-non-zero-on-fix ]
+      - id: ruff-format
+        types_or: [ python, pyi, jupyter ]

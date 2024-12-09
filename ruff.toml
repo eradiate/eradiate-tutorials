@@ -1,0 +1,8 @@
+include = ["*/**/*.ipynb"]
+exclude = ["*/**/.ipynb_checkpoints/*", "_tutorial_template.ipynb"]
+
+[lint]
+ignore = ["E501", "F821"]
+isort = { relative-imports-order = "closest-to-furthest" }
+per-file-ignores = { "*.ipynb" = ["E402"] }
+select = ["I", "F", "E"]
