@@ -1,5 +1,3 @@
-.. _sec-tutorials:
-
 Tutorials
 =========
 
