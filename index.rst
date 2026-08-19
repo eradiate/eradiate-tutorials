@@ -36,7 +36,7 @@ Learning pathways
 
       * :doc:`getting_started/eradiate_quickstart`
       * :doc:`getting_started/molecular_atmosphere`
-      * :doc:`getting_started/particle_layer`
+      * :doc:`getting_started/particle_ensemble`
 
    .. grid-item-card:: :iconify:`material-symbols:forest height=1.5em` 3D simulation
 
