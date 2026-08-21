@@ -8,7 +8,7 @@ A collection of introductory lessons to learn the basics of Eradiate.
 ```{nbgallery}
 eradiate_quickstart
 molecular_atmosphere
-particle_layer
+particle_ensemble
 3d_basics
 problem_geometry
 polarization
