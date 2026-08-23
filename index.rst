@@ -44,6 +44,7 @@ Learning pathways
       * :doc:`getting_started/3d_basics`
       * :doc:`advanced/abstract_canopies`
       * :doc:`advanced/3d_particle_ensemble`
+      * :doc:`advanced/particle_field`
 
 .. toctree::
    :hidden:
