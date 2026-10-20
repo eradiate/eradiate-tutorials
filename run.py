@@ -5,7 +5,6 @@ import subprocess
 from pathlib import Path
 
 import click
-
 import eradiate
 from eradiate.typing import PathLike
 
@@ -41,7 +40,7 @@ def main(ctx, root_dir: str, globs: str):
     ctx.obj = {}
 
     if root_dir is None:
-        root_dir = eradiate.config.SOURCE_DIR / "tutorials"
+        root_dir = eradiate.config.SOURCE_DIR / "docs/tutorials"
     else:
         root_dir = Path(root_dir)
     ctx.obj["root_dir"] = root_dir
@@ -79,13 +78,18 @@ def ls(ctx, relative):
 def run(ctx, filenames):
     """
     Render tutorial files specified as FILENAMES. If none is specified, all
-    tutorials will be rendered.
+    tutorials will be rendered. Relative FILENAMES are looked up in the root
+    directory first, then in the current working directory.
     """
     root_dir = ctx.obj["root_dir"]
     globs = ctx.obj["globs"]
 
     if not filenames:
         filenames = list_tutorials(root_dir, globs)
+    else:
+        filenames = [
+            root_dir / f if (root_dir / f).is_file() else Path(f) for f in filenames
+        ]
 
     errors = []
 
